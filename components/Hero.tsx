@@ -42,7 +42,7 @@ const Hero = () => {
             Hola Soy Juan, Desarrollador Full-Stack
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <ButtonShimmer 
               title="Mis Trabajos"
               icon={<FaLocationArrow />}

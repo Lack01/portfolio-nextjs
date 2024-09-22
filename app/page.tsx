@@ -2,11 +2,15 @@ import Grid from "@/components/Grid";
 import  Hero  from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import {Timeline} from "@/components/ui/Timeline";
 import { navItems } from "@/data";
-import { FaAddressBook, FaHome } from "react-icons/fa";
+import {data} from "@/data"
+
 
 
 export default function Home() {
+
+
   return (
     <main className="relative bg-black-100 flex 
       justify-center items-center flex-col overflow-hidden 
@@ -18,6 +22,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Timeline  data={data}/>
       </div>
     </main>
   );

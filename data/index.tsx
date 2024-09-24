@@ -1,3 +1,4 @@
+import { link } from "fs";
 import Image from "next/image";
 
 
@@ -83,11 +84,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Route Calculator Map",
+      des: "Desde la ubicación actual, establece entre dos puntos cual es el mas cercano y el mas lejano.",
+      img: "/appmap.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://www.google.com",
     },
     {
       id: 3,
@@ -208,14 +209,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/Lack01",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/juan-molina-valdivia-6a565693/"
     },
   ];
 

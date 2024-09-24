@@ -3,6 +3,7 @@ import  Hero  from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import {Timeline} from "@/components/ui/Timeline";
+import  Footer from "@/components/Footer";
 import { navItems } from "@/data";
 import {data} from "@/data"
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Timeline  data={data}/>
+        <Footer />
       </div>
     </main>
   );

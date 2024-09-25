@@ -88,7 +88,7 @@ export const navItems = [
       des: "Desde la ubicación actual, establece entre dos puntos cual es el mas cercano y el mas lejano.",
       img: "/appmap.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://www.google.com",
+      link: "https://routecalculator-map.vercel.app/",
     },
     {
       id: 3,

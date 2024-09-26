@@ -5,8 +5,8 @@ import { ButtonShimmer } from "./ui/ButtonShimmer";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+    <footer className="w-full pt-20 pb-5" id="contact">
+      <div className="w-full absolute left-0 -bottom-0">
         <img
           src="/footer-grid.svg"
           alt="grid"
@@ -30,7 +30,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex h-full my-20 md:flex-row flex-col justify-between items-center">
+      <div className="flex pb-0 bottom-0 my-20 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Juan Molina
         </p>

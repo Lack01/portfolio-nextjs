@@ -1,7 +1,8 @@
-import { FaLocationArrow } from "react-icons/fa";
+import { FaDownload, FaLocationArrow } from "react-icons/fa";
 import { ButtonShimmer } from "./ui/ButtonShimmer";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { FaD } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -11,10 +12,7 @@ const Hero = () => {
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
         />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="blue"
-        />
+        <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="blue" />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="cyan" />
       </div>
       <div
@@ -42,12 +40,22 @@ const Hero = () => {
             Hola Soy Juan, Desarrollador Full-Stack
           </p>
 
-          <a href="#projects">
-            <ButtonShimmer 
-              title="Mis Trabajos"
-              icon={<FaLocationArrow />}
-              position='left'/>
-          </a>
+          <div className="flex flex-row gap-4 mt-4">
+            <a href="#projects">
+              <ButtonShimmer
+                title="Mis Trabajos"
+                icon={<FaLocationArrow />}
+                position="left"
+              />
+            </a>
+            <a href="/tu-cv.pdf" download>
+              <ButtonShimmer
+                title="Descarga mi CV"
+                icon={<FaDownload />}
+                position="left"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
